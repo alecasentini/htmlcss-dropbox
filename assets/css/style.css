@@ -269,3 +269,23 @@ hr{
 .bigcard a{
     text-decoration: none;
 }
+
+/* partner */
+
+.entra-dropbox{
+    padding-top: 150px;
+}
+
+.partner-image img{
+    width: 100%;
+}
+
+.partner-description{
+    padding: 20px;
+    width: 75%;
+}
+
+.partner-description div{
+    padding-bottom: 20px;
+}
+
