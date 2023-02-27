@@ -36,6 +36,12 @@ li{
     color: white;
 }
 
+.btn-white{
+    border: 1px solid black;
+    padding: 10px 15px;
+    color: black;
+}
+
 .padding-top-150{
     padding-top: 150px;
 }
@@ -86,6 +92,10 @@ li{
 
 .widht-100{
     width: 100%;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 /* Hover */
@@ -281,11 +291,30 @@ hr{
 }
 
 .partner-description{
-    padding: 20px;
+    padding: 40px;
     width: 75%;
 }
 
 .partner-description div{
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.entra-dropbox a{
+    text-decoration: none;
+}
+
+/* operations */
+
+.operation{
+    padding-top: 150px;
+}
+
+.operation-card{
+    width: calc(100%/3 - 1%);
+    padding: 20px;
+}
+
+.operation-card img{
+    width: 100%;
 }
 
