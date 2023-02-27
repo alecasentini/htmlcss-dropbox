@@ -4,6 +4,14 @@
     <!-- link css -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
+    <!-- link fontawesome 6.3.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- link Google.font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +19,7 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="flex justify-content-between align-items-center debug">
+    <header class="flex justify-content-between align-items-center fixed">
         <div class="flex align-items-center">
             <div><a href="#"><img src="./assets/img/logo-small.png" alt="logo"></a></div>
             <div><a href="#">Perchè Dropbox</a></div>
@@ -27,7 +35,28 @@
             <div><a href="#" class="btn-blue">Inizia</a></div>
             
         </div>
-
     </header>
+
+    <!-- container sotto header -->
+    <div class="header-lightblue">
+        <div class="container-60 flex column padding-top-150 height-100">
+            <div><h2>Tutto ciò che ti serve per il lavoro, in un unico posto</h2></div>
+            <div class=" relative flex height-100 width-100 padding-top-40">
+                <div class="description flex column">
+                    <div><p>Finalmente tutti i tuoi strumenti, contenuti e collaborattori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p></div>
+                    <div ><a href="#" class="btn-blue free">Inizia la tua prova gratuita</a></div>
+                    <div class="cancel"><a href="#">Annulla in qualsiasi momento</a></div>
+                    <div class="arrow absolute"><a href=""><i class="fa-solid fa-arrow-down"></i></a></div>
+                </div>
+                
+                <div class="jumbo absolute">
+                    <img src="./assets/img/jumbo.png" alt="jumbo">
+                </div>
+
+            </div>
+            
+            
+        </div>
+    </div>
 </body>
 </html>
