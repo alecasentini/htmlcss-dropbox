@@ -47,6 +47,12 @@ li{
 .fixed{
     position: fixed;
 }
+
+.container-90{
+    width: 90%;
+    margin: 0 auto;
+}
+
 .container-80{
     width: 80%;
     margin: 0 auto;
@@ -245,4 +251,21 @@ hr{
 
 .features div{
     padding-bottom: 20px;
+}
+
+.bigcard .offer{
+    padding: 30px 0;
+}
+
+.bigcard{
+    margin-top: 50px;
+    border: 1px solid lightgray;
+}
+
+.bigcard .features{
+    padding: 20px 0;
+}
+
+.bigcard a{
+    text-decoration: none;
 }
