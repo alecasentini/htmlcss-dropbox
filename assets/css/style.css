@@ -37,21 +37,17 @@ header{
     height: 80px;
 }
 
-header ul li{
+header div{
     display: inline;
     margin: 0 20px;
 }
 
-header img{
-    margin: 0 20px;
-}
-
-header ul li a{
+header a{
     text-decoration: none;
     color: black;
 }
 
 /* Hover */
-header ul li:hover{
-    border-bottom: 1px solid black;
+.btn-blue:hover{
+    opacity: 0.75;
 }
