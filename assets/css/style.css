@@ -127,7 +127,7 @@ header a{
 }
 
 .header-lightblue{
-    height: 800px;
+    height: 770px;
     background-color: #b4d0e7;
 }
 
@@ -155,7 +155,7 @@ header a{
 }
 
 h1{
-    font-weight: 900 bold;
+    font-weight: bold;
     font-size: 80px;
 }
 
@@ -340,4 +340,78 @@ hr{
 
 .clients p{
     padding: 50px 0;
+}
+
+/* squares */
+
+.right-squares,
+.left-squares,
+.mid{
+    width: calc(100vw/3);
+    height: calc(100vw/3);
+}
+
+.square{
+    width: 50%;
+    height: 50%;
+}
+
+.square img{
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    filter: invert(98%) sepia(2%) saturate(93%) hue-rotate(274deg) brightness(123%) contrast(100%);
+}
+
+.verde{
+    background-color: #a2d39b;
+    border: 15px solid #d1e9cd;
+}
+
+.granata{
+    background-color: #61082b;
+}
+
+.azzurro{
+    background-color: #0093ce;
+}
+
+.rosso-1{
+    background-color: #ff1c1c;
+}
+
+.rosso-2{
+    background-color: #d5001f;
+}
+
+.celeste{
+    background-color: #b4d0e7;
+}
+
+.blu{
+    background-color: #0d2481;
+}
+
+.giallo{
+    background-color: #ffd830;
+}
+
+.mid{
+    background-color: #f5f5f5;
+    padding: 50px;
+    overflow: auto;
+}
+
+.width-50{
+    width: 50%;
+}
+
+.mid img{
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.mid p{
+    padding-top: 40px;
 }
