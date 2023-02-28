@@ -26,6 +26,10 @@ li{
     justify-content: space-around;
 }
 
+.justify-content-center{
+    justify-content: center;
+}
+
 .align-items-center{
     align-items: center;
 }
@@ -108,6 +112,10 @@ li{
 
 .border-btm:hover{
     border-bottom: 3px solid grey;
+}
+
+.square-card:hover .square-card-inner {
+    transform: rotateY(180deg);
 }
 
 .qa:hover .ask{
@@ -364,17 +372,45 @@ hr{
     height: calc(100vw/3);
 }
 
-.square{
+.square-card{
     width: 50%;
     height: 50%;
+    perspective: 1000px;
 }
 
-.square img{
+.square-card img{
     width: 60%;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
     filter: invert(98%) sepia(2%) saturate(93%) hue-rotate(274deg) brightness(123%) contrast(100%);
+}
+
+.square-card-inner {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    
+}
+
+.square-card-front, .square-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.square-card-back {
+    color: white;
+    transform: rotateY(180deg);
+}
+  
+.square-card-back p{
+      padding: 5px;
 }
 
 .verde{
