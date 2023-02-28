@@ -99,7 +99,8 @@ li{
 }
 
 /* Hover */
-.btn-blue:hover{
+.btn-blue:hover,
+.btn-white:hover{
     opacity: 0.75;
 }
 
@@ -318,3 +319,11 @@ hr{
     width: 100%;
 }
 
+/* clients */
+.clients{
+    padding-top: 150px;
+}
+
+.clients a{
+    color: blue;
+}
