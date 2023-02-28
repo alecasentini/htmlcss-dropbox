@@ -104,6 +104,10 @@ li{
     opacity: 0.75;
 }
 
+.border-btm:hover{
+    border-bottom: 3px solid black;
+}
+
 /* Header */
 header{
     width: 100%;
@@ -125,6 +129,10 @@ header a{
 .header-lightblue{
     height: 800px;
     background-color: #b4d0e7;
+}
+
+.border-btm{
+    padding: 27px 0;
 }
 
 .jumbo{
@@ -322,8 +330,14 @@ hr{
 /* clients */
 .clients{
     padding-top: 150px;
+    width: 70%;
 }
 
 .clients a{
     color: blue;
+    padding-top: 50px;
+}
+
+.clients p{
+    padding: 50px 0;
 }
