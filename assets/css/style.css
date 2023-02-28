@@ -435,3 +435,44 @@ hr{
 .prova-gratuita .title{
     width: 50%;
 }
+
+/* faq */
+
+/* footer */
+footer{
+    background-color: #000000;
+}
+
+.info{
+    width: calc(100%/5);
+    padding: 100px 0;
+}
+
+.info h4{
+    padding: 20px 0;
+    color: white;
+}
+
+.info ul li{
+    padding: 10px 0;
+}
+
+.info ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer hr{
+    border: 1px solid grey;
+    width: 10%;
+}
+
+.lingua{
+    color: grey;
+    padding: 40px 0;
+}
+
+.lingua *{
+    margin-right: 10px;
+}
+
