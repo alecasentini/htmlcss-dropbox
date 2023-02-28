@@ -114,7 +114,7 @@ li{
     display: inline-block;
 }
 
-.qa:hover .up{
+.qa:hover .down{
     transform: rotate(180deg)
 }
 
@@ -198,7 +198,7 @@ h1{
 
 h2{
     font-size: 35px;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .radio{
@@ -250,6 +250,14 @@ h4{
     height: 400px;
 }
 
+h5{
+    font-size: 16px;
+}
+
+.checklist li{
+    margin: 10px 0;
+}
+
 hr{
     width: 20%;
     border: 1px solid lightgray;
@@ -296,6 +304,7 @@ hr{
 
 .bigcard .features{
     padding: 20px 0;
+    width: 70%;
 }
 
 .bigcard a{
@@ -304,7 +313,7 @@ hr{
 
 /* partner */
 
-.entra-dropbox{
+.partner{
     padding-top: 150px;
 }
 
@@ -342,7 +351,7 @@ hr{
 
 /* clients */
 .clients{
-    padding-top: 150px;
+    padding: 100px 0;
     width: 70%;
 }
 
@@ -447,11 +456,14 @@ hr{
 /* faq */
 
 .faq{
-    padding: 150px 0;
+    padding: 120px 0;
 }
 
 .qa{
     border-top: 1px solid grey;
+}
+
+.qa:last-child{
     border-bottom: 1px solid grey;
 }
 
@@ -469,8 +481,7 @@ hr{
     display: none;
 }
 
-.qa .up{
-    right: 0;
+.qa .down{
     transition: all 0s;
 }
 
