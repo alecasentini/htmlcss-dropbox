@@ -413,6 +413,10 @@ hr{
       padding: 5px;
 }
 
+.square-card-back h3{
+    margin-bottom: 10px;
+}
+
 .verde{
     background-color: #a2d39b;
     border: 15px solid #d1e9cd;
